@@ -36,14 +36,6 @@ All code for this project can be found in the [URMC_CTSI_openbadge_analysis]
 
 ## Table of Content
 
-### README.md
-```
-
-```
-### requirement.txt
-```
-
-```
 ### proximity_2019-06-01
 ```
 Data folder.
@@ -55,6 +47,10 @@ Please place your data files here, or you can place it somewhere else as long as
 Python 3 file forder.
 Please see the below "Codebook" for more details. 
 ```
+### README.md
+
+### requirement.txt
+
 
 ## Codebook
 ### Preprocessing (Preprocessing.py)
