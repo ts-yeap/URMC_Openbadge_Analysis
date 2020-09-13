@@ -84,11 +84,11 @@ Please see the below "Codebook" for more details.
 ```
 ### Member Interaction Distribution (member_to_member_function.py)
 ```
-At the beginning of the script, it cleans out the badge’s information that was not worn by attendees. This script generates heatmaps
-about the member to member interaction given any time period. For the different time periods, the user needs to pick a threshold 
-for this session based on the signal strength distribution histograms. Part of the script also generates heatmap interaction 
-distribution between members with the same background fields and members with different background fields. The script also generates
-p-values for the statistical hypothesis test. 
+At the beginning of the script, it cleans out the badge’s information that was not worn by attendees. This script generates 
+heatmaps about the member to member interaction given any time period. For the different time periods, the user needs to pick a 
+threshold for this session based on the signal strength distribution histograms. Part of the script also generates heatmap 
+interaction distribution between members with the same background fields and members with different background fields. The script 
+also generates p-values for the statistical hypothesis test. 
 ```
 ### Room Assignment
 ```
