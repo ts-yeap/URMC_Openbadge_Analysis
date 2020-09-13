@@ -24,8 +24,8 @@ git+git://github.com/HumanDynamics/openbadge-analysis.git
 jupyter
 
 # Optional:
-#jupyter_contrib_nbextensions
- # then, run jupyter contrib nbextension install --user
+# jupyter_contrib_nbextensions
+# then run jupyter contrib nbextension install --user
 
 
 
