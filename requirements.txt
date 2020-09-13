@@ -6,6 +6,7 @@ scipy
 pandas==0.20.3
 sklearn
 networkx==1.11
+crc16==0.1.1
 
 # Vizualization
 bokeh==0.12.1
