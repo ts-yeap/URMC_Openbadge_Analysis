@@ -13,7 +13,7 @@ URMC Openbadge Analysis for "Unmeeting" Meeting Data using Python 3
 https://ipython.readthedocs.io/en/stable/install/kernel_install.html
 
 ## Openbadge analysis library
-***Download Microsoft Visual C++ Build Tools***
+***Download Microsoft Visual C++ Building Tools***
 ```
 https://visualstudio.microsoft.com/downloads/
 ```
