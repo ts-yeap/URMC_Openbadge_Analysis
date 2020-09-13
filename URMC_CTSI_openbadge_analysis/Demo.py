@@ -26,7 +26,8 @@ def main():
                                         attendees_metadata_filename,
                                         data_dir)  
     
-    
+    tmp_m2ms.to_csv(r'member_to_member_data.csv',index = True)
+    tmp_m2bs.to_csv(r'member_to_beacon_data.csv',index=True)
     
     dynamic.NetworkGraphBasicExample('2019-06-01 10:00','2019-06-01 11:20',tmp_m2ms)
     '''
