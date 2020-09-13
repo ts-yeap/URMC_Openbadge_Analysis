@@ -58,9 +58,13 @@ Please see the below "Codebook" for more details.
 
 ## Codebook
 ### Preprocessing (Preprocessing.py)
-
+```
+Preprocess input txt data files. 
+```
 ### Data_Clearning (Data_cleaning.py)
-
+```
+Clean data and manipulate data into the structures we need for futher analysis. 
+```
 ### Signal Strength Distribution (signal_strength_distribution.py):
 ```
 We generated histograms for the distribution of signal strength with count as frequency. We also created dynamic signal strength 
@@ -86,7 +90,11 @@ for this session based on the signal strength distribution histograms. Part of t
 distribution between members with the same background fields and members with different background fields. The script also generates 
 p-values for the statistical hypothesis test. 
 ```
-
+### Room Assignment
+```
+Python 3 file forder.
+Please see the below "Codebook" for more details. 
+```
 ### Demo (Demo.py)
 ```
 This python file gives examples of how to use each function. 
