@@ -200,6 +200,7 @@ def run_all(attendees_metadata,members_metadata,tmp_m2ms,time_period):
     for key in back_pvalue:
         ordered_key.append(key)
         ordered_value.append(back_pvalue[key])
+    plt.figure()
     plt.barh(ordered_key,ordered_value)
     plt.axvline(x=0.05,color = 'red',label = 'alpha: 0.05')
     plt.legend()
