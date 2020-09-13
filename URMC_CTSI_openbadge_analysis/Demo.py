@@ -1,7 +1,6 @@
 import Dynamic_Network_Graph_Exploration_py3 as dynamic
 import Data_Cleaning as dc
-#import heatmap_functions as heatmap
-#import Member_Distribution as dist
+import member_to_member_function as mf
 
 
 '''
@@ -54,6 +53,19 @@ def main():
     The values of the parameters are manually determined by the activities 
     engaged in the time frame given
     '''
+    
+    # choose a time frame that you are inerested 
+    time_slice = slice('2019-06-01 10:00', '2019-06-01 10:00')
+    breakout1 = slice('2019-06-01 09:50', '2019-06-01 10:39')
+    breakout2 = slice('2019-06-01 10:40', '2019-06-01 11:30')         
+    breakout3 = slice('2019-06-01 13:10', '2019-06-01 13:59')   
+    breakout4 = slice('2019-06-01 14:00', '2019-06-01 14:50')
+    lunch = slice('2019-06-01 11:40','2019-06-01 13:00')
+    whole_session = slice('2019-06-01 9:05','2019-06-01 14:50')
+    time_period = whole_session
+    
+    # the function will return heatmaps and the p-value 
+    mf.run_all(attendees_metadata,members_metadata,tmp_m2ms,time_period)
 
 if __name__ == "__main__":
     main()
