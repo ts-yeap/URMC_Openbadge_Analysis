@@ -13,9 +13,9 @@ URMC Openbadge Analysis for "Unmeeting" Meeting Data using Python 3
 https://ipython.readthedocs.io/en/stable/install/kernel_install.html
 
 ## Openbadge analysis library
-***Download Analysis lib***
+***Download Microsoft Visual C++ Build Tools***
 ```
-git+git://github.com/HumanDynamics/openbadge-analysis.git
+https://visualstudio.microsoft.com/downloads/
 ```
 ***install ob lib***
 ```
