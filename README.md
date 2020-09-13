@@ -1,6 +1,11 @@
 # URMC Netowrking Rhythm Badage Analysis
 URMC Openbadge Analysis for "Unmeeting" Meeting Data using Python 3
 
+demo how to use 
+what to run 
+how to get requirement 
+what are each file are for 
+where is output 
 
 ## Authors
 * Yumeng Xi
@@ -32,3 +37,5 @@ All code for this project can be found in the [URMC_CTSI_openbadge_analysis](htt
 ```
 lalala
 ```
+
+## Introduction about This Libary
