@@ -42,14 +42,22 @@ Data folder.
 Please place your data files here, or you can place it somewhere else as long as you modify the data input derectory in 
 "./URMC_CTSI_openbadge_analysis/Data_Cleaning.py". 
 ```
+
 ### URMC_CTSI_openbadge_analysis
 ```
 Python 3 file forder.
 Please see the below "Codebook" for more details. 
 ```
+
 ### README.md
+```
+Read me. 
+```
 
 ### requirement.txt
+```
+Required. 
+```
 
 
 ## Codebook
@@ -57,10 +65,12 @@ Please see the below "Codebook" for more details.
 ```
 Preprocess input txt data files. 
 ```
+
 ### Data_Clearning (Data_cleaning.py)
 ```
 Clean data and manipulate data into the structures we need for futher analysis. 
 ```
+
 ### Signal Strength Distribution (signal_strength_distribution.py):
 ```
 We generated histograms for the distribution of signal strength with count as frequency. We also created dynamic signal strength 
@@ -73,11 +83,13 @@ Breakout Session 2: https://youtu.be/f8ifvLcI7EE
 Breakout Session 3: https://youtu.be/VeF3HaHZXjo 
 Breakout Session 4: https://youtu.be/eSf5lXNmwaw 
 ```
+
 ### Dynamic Network Graph (Dynamic_Network_Graph_Exploration_py3.py)
 ```
 Python 3 file forder.
 Please see the below "Codebook" for more details. 
 ```
+
 ### Member Interaction Distribution (member_to_member_function.py)
 ```
 At the beginning of the script, it cleans out the badge’s information that was not worn by attendees. This script generates 
@@ -86,11 +98,13 @@ threshold for this session based on the signal strength distribution histograms.
 interaction distribution between members with the same background fields and members with different background fields. The script 
 also generates p-values for the statistical hypothesis test. 
 ```
+
 ### Room Assignment
 ```
 Python 3 file forder.
 Please see the below "Codebook" for more details. 
 ```
+
 ### Demo (Demo.py)
 ```
 This python file gives examples of how to use each function. 
