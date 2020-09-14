@@ -125,7 +125,10 @@ also generates p-values for the statistical hypothesis test.
 
 ### Room Assignment
 ```
-By finding the closest beacon to each member during each predefined time period (in our case, half breakout session), we can “assign” them the room they probably stayed in during that session, as we already knew the locations of each beacon. We also verify our outcome in the dynamic member network graph by giving each node different colors based on the room assignment information. 
+By finding the closest beacon to each member during each predefined time period (in our case, half breakout session), we can 
+“assign” them the room they probably stayed in during that session, as we already knew the locations of each beacon. We also 
+verify our outcome in the dynamic member network graph by giving each node different colors based on the room assignment 
+information. 
 ```
 
 ### Demo (Demo.py)
