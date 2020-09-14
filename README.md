@@ -85,11 +85,35 @@ Breakout Session 4: https://youtu.be/eSf5lXNmwaw
 ```
 
 ### Dynamic Network Graph (Dynamic_Network_Graph_Exploration_py3.py)
+#### Network Graph Basic Example
 ```
-Python 3 file forder.
-Please see the below "Codebook" for more details. 
-```
+This function will draw the dynamic network graph with average signal strengths among members and their relative average location 
+in the graph. 
 
+```
+#### Lunch Time Analysis
+```
+This analysis focuses on lunchtime and will draw multiple graphs of the lunchtime every 5-minute interval. The signal strength 
+threshold, count threshold are customized. Parameters can be modified, but mostly only need to run the section.
+```
+#### Breakout Session Analysis
+```
+This analysis focuses on breakout sessions and will draw multiple graphs of the breakout session every 2-minute interval. The signal 
+strength threshold, count threshold are customized. Parameters can be modified, but mostly one only need to run the section to see 
+the results. 
+```
+#### Interaction Network Graph
+```
+This tool helps find the interaction between members in a certain amount of time with designated parameters. The parameters such 
+as signal strength using the distribution of signal strength. After choosing a threshold for signal strength, the program analyzes 
+the distribution of frequencies of signal strength and it will take the frequency of the peak-2. (-2 for leave some room for 
+fluctuation).
+```
+#### Interaction Network Graph with Attendees' Background Information
+```
+This tool addes attendees' background information to the previous Interaction Network Graph to better present how the attendees' 
+backgrounds influence their interactions with other attendees.
+```
 ### Member Interaction Distribution (member_to_member_function.py)
 ```
 At the beginning of the script, it cleans out the badge’s information that was not worn by attendees. This script generates 
@@ -101,8 +125,7 @@ also generates p-values for the statistical hypothesis test.
 
 ### Room Assignment
 ```
-Python 3 file forder.
-Please see the below "Codebook" for more details. 
+Placeholder. 
 ```
 
 ### Demo (Demo.py)
