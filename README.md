@@ -70,12 +70,12 @@ Clean data and manipulate data into the structures we need for futher analysis.
 
 We generated histograms for the distribution of signal strength with count as frequency. We also created dynamic signal strength frequency change in a video format which is available through a share-only link on Youtube.
 
-Video demo link: 
-Lunch break: https://youtu.be/4X9Xs9C4Gqw 
-Breakout Session 1: https://youtu.be/7wvly0PomRs 
-Breakout Session 2: https://youtu.be/f8ifvLcI7EE 
-Breakout Session 3: https://youtu.be/VeF3HaHZXjo 
-Breakout Session 4: https://youtu.be/eSf5lXNmwaw 
+Video demo link: <br/>
+Lunch break: https://youtu.be/4X9Xs9C4Gqw <br/>
+Breakout Session 1: https://youtu.be/7wvly0PomRs <br/>
+Breakout Session 2: https://youtu.be/f8ifvLcI7EE <br/>
+Breakout Session 3: https://youtu.be/VeF3HaHZXjo <br/>
+Breakout Session 4: https://youtu.be/eSf5lXNmwaw <br/>
 
 
 ### Dynamic Network Graph (Dynamic_Network_Graph_Exploration_py3.py)
